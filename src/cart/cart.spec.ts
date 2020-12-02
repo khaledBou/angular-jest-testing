@@ -1,5 +1,8 @@
+import { Cart } from './cart';
+import { Book } from './book';
+
 describe('Cart', () => {
-  xit('should add book', () => {
+  it('should add book', () => {
     const cart = new Cart();
 
     const xp = new Book('eXtreme Programming Explained', 'Kent Beck');
@@ -18,7 +21,6 @@ describe('Cart', () => {
     // add another book
     // get book list
     // check contain both books in same order
-    throw new Error('work in progress!');
   });
 
   it.todo('should remove book');
